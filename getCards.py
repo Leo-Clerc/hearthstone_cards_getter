@@ -8,4 +8,4 @@ response.encoding="utf-8"
 data = response.json()
 
 df = pd.DataFrame.from_dict(data)
-csv = df.to_csv("hearthstone_card.csv", encoding="utf-8", index=False)
+csv = df.to_csv("hearthstone_collectible_cards.csv", encoding="utf-8", index=False)

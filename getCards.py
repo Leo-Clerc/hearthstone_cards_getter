@@ -1,7 +1,7 @@
 import requests 
 import pandas as pd
 
-url = "https://api.hearthstonejson.com/v1/235290/enUS/cards.collectible.json"
+url = "https://api.hearthstonejson.com/v1/latest/enUS/cards.collectible.json"
 
 response = requests.get(url)
 response.encoding="utf-8"
